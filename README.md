@@ -1,4 +1,4 @@
-# botikka.py
+# botikka.py 🤖
 A discord botinok that is at the start of development.
 
 ## Usage:
