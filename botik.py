@@ -25,12 +25,11 @@ async def botika(ctx):
 
 @botinok.command()
 async def cat(ctx):
-    embed = discord.Embed(
-        title="I found cat for you! " + random.choice(emoji_list),
-        color=discord.Color.red()
-    )
-    embed.url = "https://github.com/mjaucher/botik"
-    embed.set_image(url=url())
+    image_url = url()
+    embed = discord.Embed(color=discord.Color.red())
+    embed.set_image(url=image_url)
+    embed.title = "I found cat for you! " + random.choice(emoji_list)
+    embed.url = "https://github.com/yukkyu/botikka"
     await ctx.reply(embed=embed)
 
 
