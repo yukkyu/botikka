@@ -1,10 +1,4 @@
-import random
-
-
-def url():
-    random_choice = random.choice(url_list)
-    return "https://cdn.discordapp.com/attachments/984213928689172541/" + random_choice + ".jpg"
-
+better_random_list = []
 
 emoji_list = ["🐈", "😇", "😍", "😁", "🐈", "🐈", "🤩",
               "🥳",
@@ -14,7 +8,7 @@ emoji_list = ["🐈", "😇", "😍", "😁", "🐈", "🐈", "🤩",
               "🐱",
               "❤", "🍞", "🥖"]
 
-url_list = [
+id_list = [
     "984214100420730880/1",
     "984214220319109190/2",
     "984220924771454996/3",
