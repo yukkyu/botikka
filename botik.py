@@ -14,6 +14,7 @@ async def on_ready(): printt("Hello World!")
 
 
 @botinok.command()
+@commands.has_permissions(manage_messages=True)
 async def clear(ctx, *, number=711): await ctx.channel.purge(limit=number + 1)
 
 
